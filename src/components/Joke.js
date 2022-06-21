@@ -1,10 +1,10 @@
 import React from "react";
 
-function Joke () {
+function Joke (props) {
     return (
         <div>
-            <h2>Setup</h2>
-            <h1>Punchline</h1>
+            <h2>{props.setup}</h2>
+            <h1>{props.punchline}</h1>
         </div>
     )
 }
